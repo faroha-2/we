@@ -1,0 +1,65 @@
+.cart-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #8979CC;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .cart-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgb(19, 0, 0);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* نافذة العربة */
+  .cart-popup {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 300px;
+  }
+  
+  .cart-popup h3 {
+    margin: 0 0 10px;
+  }
+  
+  .cart-popup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-popup ul li {
+    margin-bottom: 8px;
+  }
